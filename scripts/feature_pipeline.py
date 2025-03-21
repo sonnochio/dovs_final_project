@@ -88,7 +88,7 @@ def detect_parking_bays(image_path='assets/warped/large.jpg'):
 
 #============================================================
         # Change to 30% instead, can play around with this 
-        row_group_factor = 0.3  # e.g., 0.3 = 30%
+        row_group_factor = 0.9  # e.g., 0.3 = 30%
         threshold = row_group_factor * avg_height
 #============================================================
 

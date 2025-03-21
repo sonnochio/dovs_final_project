@@ -21,5 +21,6 @@ def draw_car_park(rows=2, cols=9, bay_width=2.6, bay_length=5.0):
     
     plt.show()
 
-# Run the function to generate the car park grid
-draw_car_park()
+
+if __name__ == "__main__":
+    draw_car_park()
