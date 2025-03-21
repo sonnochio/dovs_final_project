@@ -31,7 +31,22 @@ The specific steps include:
 3. Create a digital twin of the car park
 4. Count the amount of cars within the car park
 
+# Requirements
+
+The project requires the following Python packages. You can install them using the provided requirements.txt file:
+
+```numpy>=1.19.2
+opencv-python>=4.5.1.48
+matplotlib>=3.3.2
+```
+To install the required packages, run the following command in your project directory:
+
+```pip install -r requirements.txt```
+
+
 # Instructions for Use
+
+
 For tasks 1-3, please access and run the 0_full_pipline.py file. 
 1. Once ran, please select 4 corner points from the image that you would like to shift your persepctive onto
 2. Once 4 points are selected, please press any key OTHER THAN "0" to run the transform. You will see the transformed image and the parking bays identified
